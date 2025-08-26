@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/potfolio/static/css/main.a285f21c.css",
+    "main.js": "/potfolio/static/js/main.439057cc.js",
+    "static/js/453.8219f373.chunk.js": "/potfolio/static/js/453.8219f373.chunk.js",
+    "static/media/psd2html.mp4": "/potfolio/static/media/psd2html.919ae9dff3130bdb0c3b.mp4",
+    "static/media/samurai-clear.png": "/potfolio/static/media/samurai-clear.96adc1fb464f5d40c386.png",
+    "static/media/cattie-samurai.png": "/potfolio/static/media/cattie-samurai.bf5398bb0b17165331b7.png",
+    "static/media/netflix.mp4": "/potfolio/static/media/netflix.117f75a2e7d4f4459d59.mp4",
+    "static/media/sb.mp4": "/potfolio/static/media/sb.497a801aa9fc3232bab4.mp4",
+    "static/media/gamevideo.mp4": "/potfolio/static/media/gamevideo.a096e52d41c2a443d216.mp4",
+    "static/media/w.mp4": "/potfolio/static/media/w.d4c5971cb08346e224cd.mp4",
+    "static/media/room3.jpg": "/potfolio/static/media/room3.45b08f7627d27e427f36.jpg",
+    "static/media/tailwind.png": "/potfolio/static/media/tailwind.34cff15c5f4297bf04bf.png",
+    "index.html": "/potfolio/index.html",
+    "main.a285f21c.css.map": "/potfolio/static/css/main.a285f21c.css.map",
+    "main.439057cc.js.map": "/potfolio/static/js/main.439057cc.js.map",
+    "453.8219f373.chunk.js.map": "/potfolio/static/js/453.8219f373.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a285f21c.css",
+    "static/js/main.439057cc.js"
+  ]
+}
