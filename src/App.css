@@ -1,38 +1,204 @@
-.App {
+/* Main container with background */
+.main {
+  height: 700px;
+  width: 100%;
+  background: url(samurai-clear.png) center/cover no-repeat;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Canvas overlay is positioned absolutely inside .main */
+.main canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none; /* so mouse events pass through */
+  width: 100%;
+  height: 100%;
+}
+
+/* Project section */
+.prjcts {
+  width: 100%;
+  background-image: url(room3.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+/* Individual project container */
+.p1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 50px 0;
+  gap: 30px;
+  border: 2px solid black;
+}
+
+/* Project image container */
+.pdtls {
+  width: 580px;
+  background-color: lightblue;
+  border: 2px solid blueviolet;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Project text/details */
+.pdtlsT {
+  width: 580px;
+  height: 300px;
+  background-color: lightblue;
+  border: 2px solid blueviolet;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
+/* Project images */
+.pdtls img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Optional spacing utility */
+.mt-5 {
+  padding: 50px 0;
+}
+
+.a-btn {
+  height: 50px;
+  width: 100px;
+  border-radius: 15px;
+}
+
+.about {
+  height: 100vh;
+  width: 100vw;
+  background: url(room3.jpg) center/cover no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-me {
+  height: 300px;
+  width: 530px;
+}
+
+.about-img {
+  height: 500px;
+  width: 300px;
+  background: url(samurai-clear.png) center/cover no-repeat;
+}
+
+.main canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
   pointer-events: none;
+  display: block;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero {
+  height: 100%;
+  width: 100%;
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+/* Transparent overlay filter */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55); /* dark transparent filter */
+  backdrop-filter: blur(2px); /* optional blur for effect */
+  z-index: 1;
+}
+
+.hero * {
+  position: relative;
+  z-index: 2;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Gradient text for title */
+.title {
+  font-size: 3vw;
+  font-weight: 800;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #38bdf8, #f472b6, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.subtitle {
+  font-size: 0.5 vw;
+  margin: 8px 0;
+  max-width: 600px;
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+.highlight {
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.pop-up {
+  height: 50vh;
+  width: 70vw;
+  background: green;
+  position: absolute;
+  left: 15%;
+  top: 90%;
+}
+
+.an {
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .about {
+    height: 100%;
+    width: 100vw;
+    background: url(cattie-samurai.png) center/cover no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
   }
-  to {
-    transform: rotate(360deg);
+
+  .about-img {
+    display: none;
+    height: 500px;
+    width: 300px;
+    background: none;
   }
 }
