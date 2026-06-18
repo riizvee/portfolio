@@ -5,6 +5,7 @@ import netflix from "./netflix.mp4";
 import psd2html from "./psd2html.mp4";
 import w from "./w.mp4";
 import sb from "./sb.mp4";
+import snake from "./snake.png";
 import tlogo from "./tailwind.png";
 
 import { useEffect, useRef, useState } from "react";
@@ -265,6 +266,11 @@ function App() {
           {/* Example Project Card */}
           {[
             {
+             image: snake,
+              title: "Snake Game (HTML, CSS, JavaScript)",
+              desc: "Built and deployed a browser-based Snake Game with movement controls, scoring system, and collision logic using vanilla JavaScript.",
+            },
+            {
               video: game,
               title: "Tic Tac Toe Game",
               desc: "A browser-based Tic Tac Toe game with responsive layout, turn tracking, and winning animations.",
@@ -298,14 +304,24 @@ function App() {
                 {p.title}
               </h3>
               <p className="text-gray-300 text-center mb-6">{p.desc}</p>
-              <video
-                src={p.video}
-                controls
-                autoPlay
-                muted
-                loop
-                className="rounded-lg w-full max-h-72 shadow-lg hover:scale-105 transition-transform duration-300"
-              />
+              {p.video ? (
+                <video
+                  src={p.video}
+                  controls
+                  autoPlay
+                  muted
+                  loop
+                  className="rounded-lg w-full max-h-72 shadow-lg hover:scale-105 transition-transform duration-300"
+                />
+              ) : p.image ? (
+                <a href="https://riizvee.github.io/snake-game/">
+                <img
+                  src={p.image}
+                  alt={p.title}
+
+                  className="rounded-lg w-full max-h-72 shadow-lg hover:scale-105 transition-transform duration-300 object-cover"
+                /> </a>
+              ) : null}
             </div>
           ))}
         </div>
