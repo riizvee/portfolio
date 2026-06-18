@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/your-repo-name/static/css/main.c4e7b90d.css",
-    "main.js": "/your-repo-name/static/js/main.4a6d4da6.js",
-    "static/js/453.8219f373.chunk.js": "/your-repo-name/static/js/453.8219f373.chunk.js",
-    "static/media/psd2html.mp4": "/your-repo-name/static/media/psd2html.919ae9dff3130bdb0c3b.mp4",
-    "static/media/samurai-clear.png": "/your-repo-name/static/media/samurai-clear.96adc1fb464f5d40c386.png",
-    "static/media/cattie-samurai.png": "/your-repo-name/static/media/cattie-samurai.bf5398bb0b17165331b7.png",
-    "static/media/netflix.mp4": "/your-repo-name/static/media/netflix.117f75a2e7d4f4459d59.mp4",
-    "static/media/sb.mp4": "/your-repo-name/static/media/sb.497a801aa9fc3232bab4.mp4",
-    "static/media/gamevideo.mp4": "/your-repo-name/static/media/gamevideo.a096e52d41c2a443d216.mp4",
-    "static/media/w.mp4": "/your-repo-name/static/media/w.d4c5971cb08346e224cd.mp4",
-    "static/media/room3.jpg": "/your-repo-name/static/media/room3.45b08f7627d27e427f36.jpg",
-    "static/media/tailwind.png": "/your-repo-name/static/media/tailwind.34cff15c5f4297bf04bf.png",
-    "static/media/snake.png": "/your-repo-name/static/media/snake.1b43c02a447f2c1093d6.png",
-    "index.html": "/your-repo-name/index.html",
-    "main.c4e7b90d.css.map": "/your-repo-name/static/css/main.c4e7b90d.css.map",
-    "main.4a6d4da6.js.map": "/your-repo-name/static/js/main.4a6d4da6.js.map",
-    "453.8219f373.chunk.js.map": "/your-repo-name/static/js/453.8219f373.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.f889c09f.css",
+    "main.js": "/portfolio/static/js/main.dc465421.js",
+    "static/js/453.8219f373.chunk.js": "/portfolio/static/js/453.8219f373.chunk.js",
+    "static/media/psd2html.mp4": "/portfolio/static/media/psd2html.919ae9dff3130bdb0c3b.mp4",
+    "static/media/samurai-clear.png": "/portfolio/static/media/samurai-clear.96adc1fb464f5d40c386.png",
+    "static/media/cattie-samurai.png": "/portfolio/static/media/cattie-samurai.bf5398bb0b17165331b7.png",
+    "static/media/netflix.mp4": "/portfolio/static/media/netflix.117f75a2e7d4f4459d59.mp4",
+    "static/media/sb.mp4": "/portfolio/static/media/sb.497a801aa9fc3232bab4.mp4",
+    "static/media/gamevideo.mp4": "/portfolio/static/media/gamevideo.a096e52d41c2a443d216.mp4",
+    "static/media/w.mp4": "/portfolio/static/media/w.d4c5971cb08346e224cd.mp4",
+    "static/media/room3.jpg": "/portfolio/static/media/room3.45b08f7627d27e427f36.jpg",
+    "static/media/tailwind.png": "/portfolio/static/media/tailwind.34cff15c5f4297bf04bf.png",
+    "static/media/snake.png": "/portfolio/static/media/snake.1b43c02a447f2c1093d6.png",
+    "index.html": "/portfolio/index.html",
+    "main.f889c09f.css.map": "/portfolio/static/css/main.f889c09f.css.map",
+    "main.dc465421.js.map": "/portfolio/static/js/main.dc465421.js.map",
+    "453.8219f373.chunk.js.map": "/portfolio/static/js/453.8219f373.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4e7b90d.css",
-    "static/js/main.4a6d4da6.js"
+    "static/css/main.f889c09f.css",
+    "static/js/main.dc465421.js"
   ]
 }
