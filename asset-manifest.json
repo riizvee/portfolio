@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f889c09f.css",
-    "main.js": "/portfolio/static/js/main.dc465421.js",
+    "main.js": "/portfolio/static/js/main.45239f57.js",
     "static/js/453.8219f373.chunk.js": "/portfolio/static/js/453.8219f373.chunk.js",
     "static/media/psd2html.mp4": "/portfolio/static/media/psd2html.919ae9dff3130bdb0c3b.mp4",
     "static/media/samurai-clear.png": "/portfolio/static/media/samurai-clear.96adc1fb464f5d40c386.png",
     "static/media/cattie-samurai.png": "/portfolio/static/media/cattie-samurai.bf5398bb0b17165331b7.png",
     "static/media/netflix.mp4": "/portfolio/static/media/netflix.117f75a2e7d4f4459d59.mp4",
     "static/media/sb.mp4": "/portfolio/static/media/sb.497a801aa9fc3232bab4.mp4",
+    "static/media/e-com.png": "/portfolio/static/media/e-com.73e29169eb0ebbf8bdf8.png",
     "static/media/gamevideo.mp4": "/portfolio/static/media/gamevideo.a096e52d41c2a443d216.mp4",
     "static/media/w.mp4": "/portfolio/static/media/w.d4c5971cb08346e224cd.mp4",
     "static/media/room3.jpg": "/portfolio/static/media/room3.45b08f7627d27e427f36.jpg",
@@ -15,11 +16,11 @@
     "static/media/snake.png": "/portfolio/static/media/snake.1b43c02a447f2c1093d6.png",
     "index.html": "/portfolio/index.html",
     "main.f889c09f.css.map": "/portfolio/static/css/main.f889c09f.css.map",
-    "main.dc465421.js.map": "/portfolio/static/js/main.dc465421.js.map",
+    "main.45239f57.js.map": "/portfolio/static/js/main.45239f57.js.map",
     "453.8219f373.chunk.js.map": "/portfolio/static/js/453.8219f373.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f889c09f.css",
-    "static/js/main.dc465421.js"
+    "static/js/main.45239f57.js"
   ]
 }
