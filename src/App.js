@@ -6,7 +6,10 @@ import psd2html from "./psd2html.mp4";
 import w from "./w.mp4";
 import sb from "./sb.mp4";
 import snake from "./snake.png";
+import ecom from "./e-com.png";
 import tlogo from "./tailwind.png";
+import interv from "./interv.png";
+
 
 import { useEffect, useRef, useState } from "react";
 import { Github, Instagram, Youtube } from "lucide-react";
@@ -266,10 +269,24 @@ function App() {
           {/* Example Project Card */}
           {[
             {
-             image: snake,
+              image: interv,
+              title: "Mr. Interviewer — AI Interview Agent",
+              desc: "developed a web application that simulates an AI interview agent, allowing users to practice interviews with AI-generated questions and receive feedback.",
+              link: "https://mr-interviewer.vercel.app/",
+            },
+            {
+              image: snake,
               title: "Snake Game (HTML, CSS, JavaScript)",
               desc: "Built and deployed a browser-based Snake Game with movement controls, scoring system, and collision logic using vanilla JavaScript.",
+              link: "https://riizvee.github.io/snake-game/",
             },
+            {
+              image: ecom,
+              title: "E-Commerce Website",
+              desc: "Developed a e-commerce platform with product management, add to cart functionality, and more.",
+              link: "https://riizvee.github.io/e-com/",
+            },
+            
             {
               video: game,
               title: "Tic Tac Toe Game",
@@ -314,13 +331,13 @@ function App() {
                   className="rounded-lg w-full max-h-72 shadow-lg hover:scale-105 transition-transform duration-300"
                 />
               ) : p.image ? (
-                <a href="https://riizvee.github.io/snake-game/">
-                <img
-                  src={p.image}
-                  alt={p.title}
-
-                  className="rounded-lg w-full max-h-72 shadow-lg hover:scale-105 transition-transform duration-300 object-cover"
-                /> </a>
+                <a href={p.link || "#"} target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={p.image}
+                    alt={p.title}
+                    className="rounded-lg w-full max-h-72 shadow-lg hover:scale-105 transition-transform duration-300 object-cover"
+                  />
+                </a>
               ) : null}
             </div>
           ))}
