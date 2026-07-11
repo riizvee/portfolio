@@ -272,7 +272,7 @@ function App() {
               image: interv,
               title: "Mr. Interviewer — AI Interview Agent",
               desc: "developed a web application that simulates an AI interview agent, allowing users to practice interviews with AI-generated questions and receive feedback.",
-              link: "https://mr-interviewer.vercel.app/",
+              link: "https://mrinterviewer-pi.vercel.app/",
             },
             {
               image: snake,
